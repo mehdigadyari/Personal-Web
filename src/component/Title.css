@@ -1,0 +1,22 @@
+.title::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: auto;
+  bottom: 0;
+  height: 5px;
+  border-radius: 100px;
+  width: 35px;
+  background: #36485a;
+}
+.title::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: auto;
+  bottom: 0;
+  height: 5px;
+  border-radius: 100px;
+  width: 100px;
+  background: rgba(29, 193, 21, 0.319);
+}
